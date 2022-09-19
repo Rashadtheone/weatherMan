@@ -1,14 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
 
-function App() {
+export default function Backdrop() {
   return (
     <div className="maincardcontainer">
         <input type="text" placeholder='search' className='search-bar'/>
-        <button className='search-button'>Search</button>
+        <button className='search-button'></button>
         
     </div>
   );
 }
-
-export default App;

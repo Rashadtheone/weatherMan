@@ -1,23 +1,14 @@
-import logo from './logo.svg';
+import Maincard from './componet/Maincard';
 import './App.css';
 
 function App() {
+  const apiKey = "fb4c139aef69a2f3e8b2e92b4bf0b0ba";
+
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+        <Maincard/>
     </div>
   );
 }
